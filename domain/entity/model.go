@@ -43,3 +43,9 @@ type Name struct {
 	First string `json:"first"`
 	Last  string `json:"last"`
 }
+
+type Response struct {
+	Code         int    `json:"code"`
+	Message      string `json:"message"`
+	Elapsed_time string `json:"elapsed_time"`
+}
